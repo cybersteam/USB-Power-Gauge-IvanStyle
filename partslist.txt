@@ -1,0 +1,14 @@
+ATTINY85V-10S
+
+10uF Cap
+
+
+R1 - 470
+R2 - 10K 1 %
+RSHUNT 0.1W 0.1/1% ??????????
+
+INA169 current shunt monitor
+
+JP
+JP2 
+(ports)
