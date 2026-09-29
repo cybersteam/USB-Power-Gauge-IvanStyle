@@ -1,0 +1,10 @@
+build/
+__pycache__/
+*.pyc
+*.elf
+*.hex
+*.map
+*.o
+*.d
+*.su
+cal.bin
