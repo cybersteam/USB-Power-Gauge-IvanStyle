@@ -1,0 +1,50 @@
+USB Power Gauge — IvanStyle firmware
+
+This tree holds two bodies of work. They do not share a license.
+
+1. Adafruit USB Power Gauge design
+
+The hardware design, photographs, schematic, product text, and the original
+sketch under legacy/ keep the notices they shipped with. license.txt is the
+Creative Commons Attribution-ShareAlike 3.0 Unported text this repository
+was published with. The schematic image's title block names CC BY-SA 2.5.
+This rewrite does not edit either notice to force them to agree.
+
+The original sketch header follows. It travels with that code:
+
+    Adafruit USB Power Gauge firmware
+
+    http://www.adafruit.com/products/1549
+
+    Adafruit invests time and resources providing this open source code,
+    please support Adafruit and open-source hardware by purchasing
+    products from Adafruit!
+
+    Written by Limor Fried/Ladyada for Adafruit Industries.
+    BSD license, check license.txt for more information
+    All text above must be included in any redistribution
+
+The original product text follows. It travels with that text:
+
+    Adafruit invests time and resources providing this open source design,
+    please support Adafruit and open-source hardware by purchasing
+    products from Adafruit!
+
+    Designed by Adafruit Industries.
+    Creative Commons Attribution, Share-Alike license, check license.txt for more information
+    All text above must be included in any redistribution
+
+The sketch header names a BSD license and then points at license.txt, which
+is the CC BY-SA 3.0 legal code. Both sentences are preserved as published.
+
+2. This firmware rewrite
+
+The production firmware (firmware/), host tools (tools/), Makefile,
+firmware/fuses.mk, and the documents under docs/ are covered by
+LICENSE-FIRMWARE (BSD 3-Clause).
+
+Copyright (c) 2026 USB Power Gauge contributors
+
+IvanStyle is the name of this repository variant. It is not a company, and
+it is not an Adafruit product. Adafruit and the Adafruit USB Power Gauge are
+names of Adafruit Industries. Nothing here is endorsed by Adafruit.

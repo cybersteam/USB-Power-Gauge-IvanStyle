@@ -1,0 +1,25 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  firmware:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install the AVR toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends gcc-avr avr-libc binutils-avr
+
+      - name: Host tests and Python tools
+        run: make test
+
+      - name: Production image at 8 MHz
+        run: make all
+
+      - name: Image for boards already fused at 16 MHz
+        run: make F_CPU=16000000 all
